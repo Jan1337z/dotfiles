@@ -45,4 +45,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 # Customize to your needs...
-export PATH=$PATH:/Users/janmeier/.rvm/gems/ruby-2.0.0-p247/bin:/Users/janmeier/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/janmeier/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/janmeier/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Android\ Studio.app/sdk/platform-tools
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Android\ Studio.app/sdk/platform-tools
