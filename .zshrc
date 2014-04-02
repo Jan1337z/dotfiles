@@ -10,7 +10,8 @@ ZSH_THEME="dracula"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias firefox="open -a Firefox"
+alias ff="firefox"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
