@@ -10,8 +10,13 @@ ZSH_THEME="dracula"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#aliases to open Browser from Terminal
 alias firefox="open -a Firefox"
 alias ff="firefox"
+alias chrome="open -a Google\ Chrome"
+alias safari="open -a Safari"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
