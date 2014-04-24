@@ -3,10 +3,13 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
-Bundle 'tpope/vim-fugitive'
+
+Bundle 'Lokaltog/vim-easymotion'
 call vundle#end()
 filetype plugin indent on
+
+" easy motion map key
+let g:EasyMotion_leader_key = 'g' 
 
 " enable linenumbers
 set number
