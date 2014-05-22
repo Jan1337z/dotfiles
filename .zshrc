@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 PATH=$PATH:/usr/local/sbin
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
-ZSH_THEME="dracula" 
+ZSH_THEME="robbyrussell" 
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 
