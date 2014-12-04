@@ -11,6 +11,13 @@
 [alias]
 tree = log --graph --decorate --pretty=oneline --abbrev-commit
 lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	s = status -s
+	ss = status
 
 [core]
 	editor = /usr/bin/vim
+	autocrlf = input
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
