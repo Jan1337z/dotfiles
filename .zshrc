@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 PATH=$PATH:/usr/local/sbin
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
-ZSH_THEME="robbyrussell" 
+ZSH_THEME="robbyrussell"
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 
@@ -46,7 +46,7 @@ alias safari="open -a Safari"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git hub brew gem osx web-search)
 
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
@@ -56,3 +56,6 @@ export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/And
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+#alias git with hub
+eval "$(hub alias -s)"
