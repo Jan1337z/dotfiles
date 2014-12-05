@@ -17,6 +17,9 @@ alias ff="firefox"
 alias chrome="open -a Google\ Chrome"
 alias safari="open -a Safari"
 
+#alias mkdirs
+alias mkdirs="mkdir -p"
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
