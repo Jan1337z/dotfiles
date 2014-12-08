@@ -1,6 +1,10 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 PATH=$PATH:/usr/local/sbin
+
+# add R
+PATH=$PATH:/usr/local/bin/R
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 ZSH_THEME="robbyrussell"

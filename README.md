@@ -28,6 +28,11 @@ Do `brew install` for the following:
 * ssh-copy-id
 * sqlite
 * phpdocumentor
+* R 
+```bash
+brew tap homebrew/science
+brew install r
+```
 
 ## Additional Installations
 * [RVM](http://rvm.io/rvm/install)
