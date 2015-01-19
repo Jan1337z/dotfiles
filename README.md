@@ -29,6 +29,7 @@ Do `brew install` for the following:
 * sqlite
 * phpdocumentor
 * R 
+* tree
 ```bash
 brew tap homebrew/science
 brew install r
