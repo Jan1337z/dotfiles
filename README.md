@@ -4,6 +4,7 @@ This repository contains my current dotfiles (mostly for myself).
 
 ## Submodules
 The following modules are included as submodules in this repository
+
 * [Vundle](https://github.com/gmarik/Vundle.vim)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -15,6 +16,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ```
 ## Packages installed via _homebrew_
 Do `brew install` for the following:
+
 * git
 * curl
 * hub
@@ -28,7 +30,7 @@ Do `brew install` for the following:
 * ssh-copy-id
 * sqlite
 * phpdocumentor
-* R 
+* R
 * tree
 ```bash
 brew tap homebrew/science
