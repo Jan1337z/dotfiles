@@ -16,8 +16,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ```
 ## Packages installed via _homebrew_
 Do `brew install` for the following:
-
 * git
+* git-cal
 * curl
 * hub
 * python3
