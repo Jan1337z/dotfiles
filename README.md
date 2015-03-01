@@ -22,6 +22,7 @@ Do `brew install` for the following:
 * hub
 * python3
 * php56
+* phpunit
 * zsh
 * wget
 * composer
@@ -33,6 +34,7 @@ Do `brew install` for the following:
 * R
 * tree
 * maven
+
 ```bash
 brew tap homebrew/science
 brew install r
