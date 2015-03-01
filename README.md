@@ -32,6 +32,7 @@ Do `brew install` for the following:
 * phpdocumentor
 * R
 * tree
+* maven
 ```bash
 brew tap homebrew/science
 brew install r
