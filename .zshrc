@@ -64,5 +64,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+### Android
+export PATH=$PATH:/Applications/Android\ SDK/platform-tools
+export PATH=$PATH:/Applications/Android\ SDK/tools
 #alias git with hub
 eval "$(hub alias -s)"

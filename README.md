@@ -34,6 +34,7 @@ Do `brew install` for the following:
 * R
 * tree
 * maven
+* pidcat
 
 ```bash
 brew tap homebrew/science
