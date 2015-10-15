@@ -69,3 +69,4 @@ export PATH=$PATH:/Applications/Android\ SDK/platform-tools
 export PATH=$PATH:/Applications/Android\ SDK/tools
 #alias git with hub
 eval "$(hub alias -s)"
+fpath=(~/.zsh/completions $fpath) 
