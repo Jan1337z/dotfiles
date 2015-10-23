@@ -47,3 +47,7 @@ set showmatch
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+:map <F4> :set list<CR>
+:map <F5> :set nolist<CR>
+
