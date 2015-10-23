@@ -56,10 +56,12 @@ alias mkdirs="mkdir -p"
 plugins=(git hub brew gem osx web-search)
 
 source $ZSH/oh-my-zsh.sh
+# Android related
+export ANDROID_HOME=/Applications/AndroidSDK
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Android\ Studio.app/sdk/platform-tools
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$ANDROID_HOME/platform-tools
 
-### Added by the Heroku Toolbelt
+## #Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
@@ -69,4 +71,4 @@ export PATH=$PATH:/Applications/Android\ SDK/platform-tools
 export PATH=$PATH:/Applications/Android\ SDK/tools
 #alias git with hub
 eval "$(hub alias -s)"
-fpath=(~/.zsh/completions $fpath) 
+fpath=(~/.zsh/completions $fpath)
