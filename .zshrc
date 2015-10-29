@@ -21,6 +21,9 @@ alias ff="firefox"
 alias chrome="open -a Google\ Chrome"
 alias safari="open -a Safari"
 
+alias "gs"="git s"
+alias "ga"="git a"
+
 #alias mkdirs
 alias mkdirs="mkdir -p"
 
@@ -71,4 +74,8 @@ export PATH=$PATH:/Applications/Android\ SDK/platform-tools
 export PATH=$PATH:/Applications/Android\ SDK/tools
 #alias git with hub
 eval "$(hub alias -s)"
-fpath=(~/.zsh/completions $fpath)
+plugins+=(zsh-completions)
+autoload -U compinit && compinit
+
+# local bin
+export PATH=~/bin:$PATH

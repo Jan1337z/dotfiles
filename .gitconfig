@@ -2,18 +2,22 @@
 	ui = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [user]
 	name = Jan Meier
 	email = jan@meier.wtf
 [push]
 	default = simple
 [alias]
-tree = log --graph --decorate --pretty=oneline --abbrev-commit
-lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	s = status -s
-	ss = status
-
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	s = number -s
+	ss = number
+	a = number add
+	d = number diff
+	r = number rm
+	res = number reset
+	c = commit -m
 [core]
 	editor = /usr/bin/vim
 	autocrlf = input

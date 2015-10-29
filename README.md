@@ -51,3 +51,6 @@ mkdirs ~/.oh-my-zsh/plugins/hub
 # download latest version of the auto-correction
 curl https://raw.githubusercontent.com/github/hub/master/etc/hub.zsh_completion > ~/.oh-my-zsh/plugins/hub/_hub
 ```
+
+# git-number
+install & create symlinks to ~/bin for https://github.com/holygeek/git-number
