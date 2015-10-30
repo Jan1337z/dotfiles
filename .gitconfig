@@ -18,6 +18,7 @@
 	r = number rm
 	res = number reset
 	c = commit -m
+	co = number checkout
 [core]
 	editor = /usr/bin/vim
 	autocrlf = input
