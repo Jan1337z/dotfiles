@@ -56,7 +56,7 @@ alias mkdirs="mkdir -p"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git hub brew gem osx web-search)
+plugins=(git hub brew gem osx web-search nyan sudo wd)
 
 source $ZSH/oh-my-zsh.sh
 # Android related
