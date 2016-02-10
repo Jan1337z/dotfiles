@@ -35,6 +35,10 @@ Do `brew install` for the following:
 * tree
 * maven
 * pidcat
+* npm
+
+## PAckages installed view _npm_
+* https://github.com/stevemao/diff-so-fancy*
 
 ```bash
 brew tap homebrew/science
