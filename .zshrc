@@ -57,7 +57,7 @@ alias mkdirs="mkdir -p"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git hub brew gem osx web-search nyan sudo wd)
-
+plugins+=(zsh-completions)
 source $ZSH/oh-my-zsh.sh
 # Android related
 export ANDROID_HOME=/Applications/AndroidSDK
@@ -74,7 +74,6 @@ export PATH=$PATH:/Applications/Android\ SDK/platform-tools
 export PATH=$PATH:/Applications/Android\ SDK/tools
 #alias git with hub
 eval "$(hub alias -s)"
-plugins+=(zsh-completions)
 autoload -U compinit && compinit
 
 # local bin
