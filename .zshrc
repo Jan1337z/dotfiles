@@ -21,6 +21,10 @@ alias ff="firefox"
 alias chrome="open -a Google\ Chrome"
 alias safari="open -a Safari"
 
+alias update='echo "y" | android update sdk --no-ui; echo "yes" | apm upgrade; softwareupdate -i -a; brew update; brew upgrade; brew cleanup; brew cask cleanup; npm update npm -g; npm update -g; gem update'
+
+alias c='pygmentize -g -O style=colorful,linenos=1'
+
 alias "gs"="git s"
 alias "ga"="git a"
 
@@ -70,8 +74,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 ### Android
-export PATH=$PATH:/Applications/Android\ SDK/platform-tools
-export PATH=$PATH:/Applications/Android\ SDK/tools
+export PATH=$PATH:/Applications/AndroidSDK/platform-tools
+export PATH=$PATH:/Applications/AndroidSDK/tools
 #alias git with hub
 eval "$(hub alias -s)"
 autoload -U compinit && compinit

@@ -20,7 +20,7 @@ Do `brew install` for the following:
 * git-cal
 * curl
 * hub
-* python3
+* python
 * php56
 * phpunit
 * zsh
@@ -37,7 +37,10 @@ Do `brew install` for the following:
 * pidcat
 * npm
 
-## PAckages installed view _npm_
+## Packages installed via _pip_
+* pygments
+
+## Packages installed via _npm_
 * https://github.com/stevemao/diff-so-fancy*
 
 ```bash
