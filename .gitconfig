@@ -19,7 +19,9 @@
 	res = number reset
 	c = commit -m
 	co = number checkout
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
 [core]
+	ignorecase = false
 	editor = /usr/bin/vim
 	autocrlf = input
 	excludesfile = /Users/meier/.gitignore_global
