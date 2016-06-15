@@ -6,6 +6,7 @@
 [user]
 	name = Jan Meier
 	email = jan@meier.wtf
+	signingkey = 256B44AB
 [push]
 	default = current
 [alias]
@@ -39,3 +40,5 @@
 	trustExitCode = true
 [merge]
 	ff = false
+[commit]
+	gpgsign = true
