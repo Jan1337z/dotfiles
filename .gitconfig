@@ -6,7 +6,7 @@
 [user]
 	name = Jan Meier
 	email = jan@meier.wtf
-	signingkey = 256B44AB
+	signingkey = 425FAA9F
 [push]
 	default = current
 [alias]

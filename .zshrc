@@ -19,6 +19,7 @@ ZSH_THEME="gitster"
 alias firefox="open -a Firefox"
 alias ff="firefox"
 alias chrome="open -a Google\ Chrome"
+alias ch="chrome-cli"
 alias safari="open -a Safari"
 
 alias update='echo "y" | android update sdk --no-ui; echo "yes" | apm upgrade; softwareupdate -i -a; brew update; brew upgrade; brew cleanup; brew cask cleanup; npm update npm -g; npm update -g; gem update'
@@ -39,6 +40,7 @@ alias mkdirs="mkdir -p"
 
 # Uncomment to change how often before auto-updates occur? (in days)
 # export UPDATE_ZSH_DAYS=13
+export PATH=$PATH:/Applications/MySQLWorkbench.app/Contents/MacOS
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
