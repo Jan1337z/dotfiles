@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 PATH=$PATH:/usr/local/sbin
-
+ANDROID_NDK=$PATH:/usr/local/Cellar/android-ndk/r7b
 # add R
 PATH=$PATH:/usr/local/bin/R
 
