@@ -25,6 +25,7 @@ alias safari="open -a Safari"
 alias update='echo "y" | android update sdk --no-ui; echo "yes" | apm upgrade; softwareupdate -i -a; brew update; brew upgrade; brew cleanup; brew cask cleanup; npm update npm -g; npm update -g; gem update'
 
 alias c='pygmentize -g -O style=colorful,linenos=1'
+alias copy-ks-properties="cp ~/Documents/nextbike/android/nextbike-keystore.properties ." 
 
 alias "gs"="git s"
 alias "ga"="git a"
