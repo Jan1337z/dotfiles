@@ -8,7 +8,7 @@
 	email = jan@meier.wtf
 	signingkey = 425FAA9F
 [push]
-	default = current
+	default = upstream
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
